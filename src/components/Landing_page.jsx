@@ -41,7 +41,7 @@ const Landing_page = () => {
           <img
             src={landingImg}
             alt="images"
-            className="h-auto w-full lg:h-[20rem] lg:w-[40rem] mb-4"
+            className="h-auto w-full lg:h-[20rem] lg:w-[40rem] mb-4 object-contain"
           />
 
           <h1 className="font-bold text-xl mb-2">
