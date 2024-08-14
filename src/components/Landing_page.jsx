@@ -75,11 +75,11 @@ const Landing_page = () => {
               <span className="border-b-2">$500 value!</span>
             </p>
           </div>
-          <div className="bg-emerald-300  rounded">
+          <div className="bg-emerald-300 rounded">
             <form action="" className="p-5">
-              <div className="mb-4">
+              <div className="mb-4 flex flex-col justify-center items-center">
                 <label
-                  className="block text-white text-sm font-bold mb-2"
+                  className="text-white text-sm font-bold mb-2 self-center w-[50%]"
                   htmlFor="name"
                 >
                   Name
@@ -87,13 +87,13 @@ const Landing_page = () => {
                 <input
                   type="text"
                   id="name"
-                  className="w-full p-2 border rounded"
+                  className="w-[50%] p-2 border rounded"
                 />
               </div>
 
-              <div className="mb-4">
+              <div className="mb-4 flex flex-col justify-center items-center">
                 <label
-                  className="block text-white text-sm font-bold mb-2"
+                  className="text-white text-sm font-bold mb-2 self-center w-[50%]"
                   htmlFor="email"
                 >
                   Email
@@ -101,13 +101,13 @@ const Landing_page = () => {
                 <input
                   type="email"
                   id="email"
-                  className="w-full p-2 border rounded"
+                  className="w-[50%] p-2 border rounded"
                 />
               </div>
 
-              <div className="mb-4">
+              <div className="mb-4 flex flex-col justify-center items-center">
                 <label
-                  className="block text-white text-sm font-bold mb-2"
+                  className="text-white text-sm font-bold mb-2 self-center w-[50%]"
                   htmlFor="phone"
                 >
                   Phone Number
@@ -115,13 +115,13 @@ const Landing_page = () => {
                 <input
                   type="tel"
                   id="phone"
-                  className="w-full p-2 border rounded"
+                  className="w-[50%] p-2 border rounded"
                 />
               </div>
 
-              <div className="mb-4">
+              <div className="mb-4 flex flex-col justify-center items-center">
                 <label
-                  className="block text-white text-sm font-bold mb-2"
+                  className="text-white text-sm font-bold mb-2 self-center w-[50%]"
                   htmlFor="website"
                 >
                   Website
@@ -129,7 +129,7 @@ const Landing_page = () => {
                 <input
                   type="url"
                   id="website"
-                  className="w-full p-2 border rounded"
+                  className="w-[50%] p-2 border rounded"
                 />
               </div>
             </form>

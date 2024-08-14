@@ -80,10 +80,19 @@ const Client_page = () => {
               className="w-12 h-12 rounded-full mr-4"
             />
             <p>
-              <span className="font-bold">Emily Davis</span> - Creative Solutions
+              <span className="font-bold">Emily Davis</span> - Creative
+              Solutions
             </p>
           </div>
         </div>
+
+      </div>
+        <hr className="mt-5"/>
+      <div className="flex flex-col justify-center items-center mt-5">
+      <button className="bg-orange-500 border-1 border-black p-2 font-bold text-white">
+        GET A FREE EVALUATION
+      </button>
+      <p className="text-xs mt-2">@alfahad ansari</p>
       </div>
     </>
   );
